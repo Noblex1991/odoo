@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+            <xpath expr="link[last()]" position="after">
+                <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'/>
+                <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'/>
+                <link href="/theme_Excelsior/static/src/css/style.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/css/single-portfolio-1.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/css/animations.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/plugins/animate-css/animate.css" rel="stylesheet" type="text/css"/>      
+                <link href="/theme_Excelsior/static/src/plugins/icons-mind/style.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/plugins/jpreloader/css/jpreloader.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/plugins/animate-css/animate.min.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/plugins/magnificPopup/magnific-popup.css" rel="stylesheet" type="text/css"/>
+                <link href="/theme_Excelsior/static/src/plugins/flexSlider/flexslider.css" rel="stylesheet" type="text/css"/>
+                <script src="/theme_Excelsior/static/src/plugins/jquery.min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/bootstrap/js/bootstrap.min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/jpreloader/js/jpreloader.min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/detectmobilebrowser/detectmobilebrowser.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/debouncer/debouncer.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/easing/jquery.easing.min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/sticky/jquery.sticky.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/inview/jquery.inview.min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/matchHeight/jquery.matchHeight-min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/magnificPopup/jquery.magnific-popup.min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/flexSlider/jquery.flexslider-min.js"></script>
+                <script src="/theme_Excelsior/static/src/plugins/countTo/jquery.countTo.js"></script>
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/animation.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/contact.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/filterable-portfolio.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/main.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/map.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/parallax.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/project-slider.js" />  
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/slideshow.js" /> 
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/text-rotator.js" /> 
+                <script type="text/javascript" src="/theme_Excelsior/static/src/js/text-slider.js" />    
+                <script type="text/javascript" src="/theme_Excelsior/static/src/plugins/isotope/isotope.pkgd.min.js" />
+                <script type="text/javascript" src="/theme_Excelsior/static/src/plugins/isotope/jquery.backstretch.min.js" />
+                <script type="text/javascript" src="/theme_Excelsior/static/src/plugins/isotope/jquery.appear.js" />               
+            </xpath>
+        </template>
+    </data>
+</openerp>
